@@ -5,7 +5,10 @@
 #          your website's content. Feel free to copy and use whichever entries
 #          you like, ignoring whichever entries you care to. The freedom to
 #          block or share your own content is in your hands.
-
+#
+# Note: Nothing here actually prevents scrapers from stealing your content.
+#       'robots.txt' is a gentleman's agreement between websites and crawlers.
+#       There's nothing technical to force crawlers to respect this file.
 
 # OpenAI GPTBot crawler (https://platform.openai.com/docs/gptbot)
 User-agent: GPTbot

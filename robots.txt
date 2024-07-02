@@ -1,0 +1,26 @@
+# File: robots.txt
+# Author: Zachary Cutlip, uid000-at-gmail-dot-com
+# License: MIT
+# Purpose: A 'robots.txt' file to block generative AI scrapers from stealing your website's content. Feel free to copy and use whichever entries you like, allowing whichever entries you care to
+
+# OpenAI GPTBot crawler (https://platform.openai.com/docs/gptbot)
+User-agent: GPTbot
+Disallow: /
+
+# OpenAI ChatGPT service (https://platform.openai.com/docs/plugins/bot)
+User-agent: ChatGPT-User
+Disallow: /
+
+# Google Bard / Gemini crawler (https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)
+User-agent: Google-Extended
+Disallow: /
+
+## AppleBot crawler
+User-agent: Applebot-Extended
+Disallow: /
+
+# Perplexity AI
+# https://archive.is/22gCl (wired.com)
+# https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/
+User-Agent: PerplexityBot
+Disallow: /

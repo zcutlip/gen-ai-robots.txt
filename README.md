@@ -17,6 +17,7 @@ PR requirements:
 - A comment explaining scraper this entry blocks
   - e.g., `# Perplexity AI`
 - At least one comment citing a source explaining this crawler and how it's related to generative AI
+  - Please don't editorialize. Save the opinions for the cited source
   - More than one is even better, don't go overboard though
 - A well formed `robots.txt` entry, including (someone should be able to copy this to the root of their website, unmodified):
   - The user agent to match

@@ -31,3 +31,33 @@ Disallow: /
 # https://rknight.me/blog/perplexity-ai-is-lying-about-its-user-agent/
 User-Agent: PerplexityBot
 Disallow: /
+
+# Anthropic AI
+# https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+User-agent: ClaudeBot
+Disallow: /
+
+# Amazonbot (Alexa)
+# https://developer.amazon.com/en/amazonbot
+User-agent: Amazonbot
+Disallow: /
+
+# Bytespider
+# https://darkvisitors.com/agents/bytespider
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl
+# https://commoncrawl.org/ccbot
+User-agent: CCBot
+Disallow: /
+
+# Diffbot
+# https://docs.diffbot.com/reference/crawl-introduction
+User-agent: Diffbot
+Disallow: /
+
+# Facebook (FacebookBot)
+# https://developers.facebook.com/docs/sharing/bot/
+User-agent: FacebookBot
+Disallow: /

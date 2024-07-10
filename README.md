@@ -13,7 +13,10 @@ The whole point here is freedom. Your content is yours and you should be free to
 Please submit entries as pull requests.
 
 PR requirements:
-
+- Please, on PR per company/organization
+  - E.g., please don't add Google and Facebook crawlers in the same PR
+  - However, if Google has several crawlers, grouping them together in a PR is fine
+  - This allows each PR to more clearly document what company's crawlers are being blocked
 - A comment explaining scraper this entry blocks
   - e.g., `# Perplexity AI`
 - At least one comment citing a source explaining this crawler and how it's related to generative AI

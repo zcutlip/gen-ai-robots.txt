@@ -22,6 +22,7 @@ PR requirements:
 - At least one comment citing a source explaining this crawler and how it's related to generative AI
   - Please don't editorialize. Save the opinions for the cited source
   - More than one is even better, don't go overboard though
+  - If your link is to the crawler's technical documentation, and it isn't clear how this crawler is connected to AI, please consider including a link to a 3rd party article that makes it clear
 - A well formed `robots.txt` entry, including (someone should be able to copy this to the root of their website, unmodified):
   - The user agent to match
   - a `Disallow: /` directive

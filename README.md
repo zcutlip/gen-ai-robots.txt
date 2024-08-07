@@ -1,5 +1,7 @@
 # Generative AI Robots.txt
 
+**Note**: This project is now archived. You should use [Dark Visitors](https://darkvisitors.com) instead. It's a much more robust project and actively maintained.
+
 A robots.txt to tell generative AI scrapers they're unwelcome
 
 ## Summary
